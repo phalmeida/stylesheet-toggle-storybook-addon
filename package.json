@@ -1,15 +1,15 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "stylesheet-toggle-storybook-addon",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "A simple addon for Storybook that allows you to define a set of stylesheets that can be toggled between. ",
   "keywords": [
-    "storybook-addons"
+    "storybook-addonsstylesheet-toggle", "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/phalmeida/stylesheet-toggle-storybook-addon"
   },
-  "author": "package-author",
+  "author": "philips <philipe.almeida@outlook.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -80,9 +80,9 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Stylesheet Toggle",
     "supportedFrameworks": [
-      "supported-frameworks"
+      "react"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
